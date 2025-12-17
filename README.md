@@ -118,5 +118,7 @@ cd agent
 poetry lock && poetry install
 ```
 ### Create and activate a virtual environment:
-python -m venv .venv
-source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+```bash
+python -m venv .venv 
+source .venv/bin/activte  # On Windows: .venv\Scripts\activate
+```
