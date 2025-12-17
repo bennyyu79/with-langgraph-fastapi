@@ -78,7 +78,7 @@ pnpm lint
    echo 'OPENAI_API_KEY=your-openai-api-key-here' > agent/.env
    ```
 
-2. **Agent URL**: By default, the frontend connects to `http://localhost:8123`. Override with `AGENT_URL` environment variable.
+2. **Agent URL**: By default, the frontend connects to `http://localhost:8124`. Override with `AGENT_URL` environment variable.
 
 ## Project Structure
 
@@ -118,7 +118,7 @@ The application uses a shared state pattern where:
 
 ## Development Notes
 
-- The agent server runs on port 8123 by default (configurable via PORT env var)
+- The agent server runs on port 8124 by default (configurable via PORT env var)
 - Frontend development server runs on standard Next.js port (3000)
 - The application uses UV for Python package management
 - TypeScript paths are configured with `@/*` alias pointing to `src/*`

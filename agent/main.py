@@ -23,7 +23,7 @@ add_langgraph_fastapi_endpoint(
 
 def main():
     """Run the uvicorn server."""
-    port = int(os.getenv("PORT", "8123"))
+    port = int(os.getenv("PORT", "8124"))
     uvicorn.run(
         "main:app",
         host="0.0.0.0",
