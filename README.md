@@ -117,4 +117,6 @@ If you encounter Python import errors:
 cd agent
 poetry lock && poetry install
 ```
-### add test1
+### Create and activate a virtual environment:
+python -m venv .venv
+source .venv/bin/activate  # On Windows: .venv\Scripts\activate
