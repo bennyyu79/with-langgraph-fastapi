@@ -3,6 +3,7 @@ This is the main entry point for the agent.
 It defines the workflow graph, state, tools, nodes and edges.
 """
 
+import os
 from importlib.resources import Resource
 from typing import Any, List
 
@@ -52,8 +53,12 @@ async def chat_node(
     Standard chat node based on the ReAct design pattern.
     """
 
-    # 1. Define the model
-    model = ChatOpenAI(model="gpt-4o")
+    # 1. Define the model using environment variables
+    model = ChatOpenAI(
+        model=os.getenv("OPENAILIKED_MODEL", "glm-4.6"),
+        api_key=os.getenv("OPENAILIKED_API_KEY"),
+        base_url=os.getenv("OPENAILIKED_BASE_URL")
+    )
 
     # 2. Bind the tools to the model
     fe_tools = state.get("tools", [])
