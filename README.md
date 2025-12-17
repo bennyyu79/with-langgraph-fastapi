@@ -120,5 +120,5 @@ poetry lock && poetry install
 ### Create and activate a virtual environment:
 ```bash
 python -m venv .venv 
-source .venv/bin/activte  # On Windows: .venv\Scripts\activate
+source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 ```
