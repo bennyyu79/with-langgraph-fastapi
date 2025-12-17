@@ -122,3 +122,9 @@ poetry lock && poetry install
 python -m venv .venv 
 source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 ```
+### pnpm 
+```bash
+pnpm config get registry
+pnpm config set registry https://registry.npmjs.org/
+pnpm config set registry https://registry.npmmirror.com/
+```
