@@ -1,0 +1,18 @@
+Progress: resolved 1, reused 0, downloaded 0, added 0
+Progress: resolved 17, reused 15, downloaded 0, added 0
+Progress: resolved 128, reused 118, downloaded 0, added 0
+Progress: resolved 381, reused 301, downloaded 0, added 0
+Progress: resolved 628, reused 546, downloaded 0, added 0
+Progress: resolved 824, reused 729, downloaded 0, added 0
+Progress: resolved 933, reused 839, downloaded 0, added 0
+Progress: resolved 1058, reused 961, downloaded 0, added 0
+ WARN  2 deprecated subdependencies found: hast@1.0.0, lodash.get@4.4.2
+Packages: +1013
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Progress: resolved 1112, reused 1018, downloaded 0, added 0
+Progress: resolved 1112, reused 1018, downloaded 0, added 2
+Progress: resolved 1112, reused 1018, downloaded 0, added 4
+Progress: resolved 1112, reused 1018, downloaded 0, added 5
+Progress: resolved 1112, reused 1018, downloaded 0, added 6
+Progress: resolved 1112, reused 1018, downloaded 0, added 8
+Progress: resolved 1112, reused 1018, downloaded 0, added 9
